@@ -1,0 +1,147 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+  }
+  body {
+      background-image:url(https://i.imgur.com/gnSQrmF.jpg);
+     width: 800px;
+     height: 100%;
+     background-color:pink;
+  }
+
+article {
+    background-color: orange;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: 10px solid black;
+    display: block;
+}
+
+article1 {
+    background-color: gold;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    margin-bottom: 30px; 
+    border: 10px solid black;
+    display: block;
+}
+
+article2 {
+    background-color: orange;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    margin-bottom: 30px; 
+    border: 10px solid black;
+    display: block;
+
+}
+
+
+
+  header {
+      background-color: #FA2102;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 30px;
+      
+      border: 10px solid black;
+      display: block;
+  }
+
+  
+  header1 {
+    background-color: #FA2102;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 30px;
+    
+    border: 10px solid black;
+    display: block;
+}
+
+  nav {
+      float: left;
+      width: 100%;
+  }
+  nav ul {
+      padding: ;
+      float: left;
+      border-bottom: ;
+      list-style-type: none;
+  }
+  nav li {
+      float: left;
+  }
+  nav li a {
+      display: block;
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+  }
+  a {
+      color: ;
+  }
+  section {
+      width: 73%;
+      display: inline-block;
+      float: left;
+  }
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:;
+      padding:;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color:;
+      color:;
+      clear: both;
+      display: block;
+  }
+
+  li {
+    background-color: red;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+  
+    border: 10px solid black;
+    display: block;
+  }
+    li1 {
+        background-color: red;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+        margin-bottom: 30px; 
+        border: 10px solid black;
+        display: block;
+
+  }
+    audio {
+        position: absolute;
+        top: 100px;
+        left: 300px;
+        
+
+        pointer-events: all;}
+        
+       audio::-webkit-media-controls-panel {background: yes}
+       audio::-webkit-media-controls-current-time-display {display: yes;}
+       audio::-webkit-media-controls-time-remaining-display{display: true;}
+       audio::-webkit-media-controls-mute-button {display: true;}
+       audio::-webkit-media-controls-volume-slider {display: yes;}
+    }    
+       </style>
